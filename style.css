@@ -109,7 +109,9 @@ nav {-webkit-transition: padding-top .3s,padding-bottom .3s;
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
+    object-fit: cover;
   }
+
 .videoprojectheadings h1{
     color: #fff;
     font-weight: 700;
