@@ -98,12 +98,18 @@ nav {-webkit-transition: padding-top .3s,padding-bottom .3s;
 /*MARS Section*/
 .video-project-container {
   background: #000;
- background-image: url(images/marsbg.png);
     background-repeat: no-repeat;
     background-position: right;   
     height: 540px;
     
 }
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
 .videoprojectheadings h1{
     color: #fff;
     font-weight: 700;
